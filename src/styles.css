@@ -167,34 +167,11 @@ a {
     color: white;
 }
 
-.hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-}
-
-.hamburger:focus{
-    outline: 0;
-}
-
 
 @media only screen and (max-width: 1000px) {
-    .hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-    }
-
     ul {
-        display: none;
+        display: flex;
+        flex-direction: column;
         background-color: #2b2c38;
         margin: 0ppx;
     }
@@ -205,7 +182,7 @@ a {
 
     nav {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction:column;
         background-color: #2b2c38;
     }
 
