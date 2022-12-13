@@ -168,7 +168,13 @@ a {
 }
 
 .hamburger {
-    display: none;
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
 }
 
 .hamburger:focus{
